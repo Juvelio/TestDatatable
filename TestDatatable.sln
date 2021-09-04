@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestDatatable", "TestDatatable\TestDatatable.csproj", "{A7872928-43F0-4097-9F13-DE5D07256472}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestDataTableVB", "TestDataTableVB\TestDataTableVB.vbproj", "{2F3DABAC-158D-4ACB-A0B0-7F0C62016069}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7872928-43F0-4097-9F13-DE5D07256472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7872928-43F0-4097-9F13-DE5D07256472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7872928-43F0-4097-9F13-DE5D07256472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7872928-43F0-4097-9F13-DE5D07256472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3DABAC-158D-4ACB-A0B0-7F0C62016069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3DABAC-158D-4ACB-A0B0-7F0C62016069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3DABAC-158D-4ACB-A0B0-7F0C62016069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3DABAC-158D-4ACB-A0B0-7F0C62016069}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90C7A85B-6ABE-4076-9CE4-580B84338504}
+	EndGlobalSection
+EndGlobal
