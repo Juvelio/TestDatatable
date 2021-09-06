@@ -20,8 +20,15 @@ function ListarAsistencia() {
         },
 
         success: function (data) {
-            console.log(data.d)
-            RowListarAsistencia(data.d);
+            
+            if (data.d.length >= 1) {
+                RowListarProduccion(data.d);
+                $("#modal-default").modal("show");
+            } else {
+                console.log("No Cargar Modal")
+            }
+
+
         },
 
         complete: function (xhr, status) {
@@ -31,7 +38,7 @@ function ListarAsistencia() {
     });
 }
 
-function RowListarAsistencia(obj) {
+function RowListarProduccion(obj) {
     $('#tbl_Asistencias').DataTable({
         "bDestroy": true,
         "searching": true,
