@@ -52,6 +52,7 @@ function RowListarProduccion(obj) {
             "sInfoFiltered": " - filtrado de _MAX_ entradas totales",
             "sEmptyTable": "No hay documento de Medida Preventiva para mostrar !!!",
             "sProcessing": "Procesando !!!"
+
         },
         data: obj,
         columns: [
