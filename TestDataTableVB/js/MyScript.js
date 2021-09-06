@@ -26,6 +26,7 @@ function ListarAsistencia() {
 
         complete: function (xhr, status) {
 
+            $("#modal-default").modal("show");
         }
     });
 }

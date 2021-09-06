@@ -39,6 +39,7 @@ namespace TestDatatable
             }
 
             return Lista;
+            //return new List<Asistencia>();
         }
     }
 }

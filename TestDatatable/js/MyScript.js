@@ -20,12 +20,17 @@ function ListarProduccion() {
         },
 
         success: function (data) {
-            //console.log(data.d)
-            RowListarProduccion(data.d);
+
+            if (data.d.length >= 1) {
+                RowListarProduccion(data.d);
+                $("#modal-default").modal("show");
+            } else {
+                console.log("No Cargar Modal")
+            }
+            
         },
 
         complete: function (xhr, status) {
-
         }
     });
 }
