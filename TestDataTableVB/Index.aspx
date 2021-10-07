@@ -99,6 +99,8 @@
                         <%--<button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>
                         <button type="button" class="btn btn-primary">Save changes</button>--%>
                         <button type="button" class="btn btn-default pull-right" data-dismiss="modal">Cerrar</button>
+                        <%--<button type="button" class="btn btn-default pull-right" data-dismiss="modal">Cerrar</button>--%>
+
 
                     </div>
                 </div>
